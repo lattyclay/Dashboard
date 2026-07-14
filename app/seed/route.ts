@@ -13,6 +13,7 @@ async function seedUsers() {
       email TEXT NOT NULL UNIQUE,
       password TEXT NOT NULL
     );
+    
   `;
 
 	const insertedUsers = await Promise.all(
